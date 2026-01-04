@@ -1,6 +1,6 @@
 resource "aws_instance" "myserver" {
     tags = {
-        Name = "Terraform-ec2-server"
+        Name = "Terraform-ec-server"
         Environment = "Dev"
         Cient = "TCS"
     }
